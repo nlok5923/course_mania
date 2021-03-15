@@ -6,6 +6,61 @@
     <a class="mr-sm-2">Home</a>
 </nav>
 
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-head  er">
+        <h2 class="text-center"> Provide your information</h2>
+      </div>
+      <div class="modal-body">
+        <form method="POST" action="/data">
+          <label for="email" class="mt-2">Email</label>
+          <input
+            class="form-control"
+            name="mail"
+            placeholder="Enter your mail"
+            id="mail"
+          />
+          <label for="name" class="mt-2">Name</label>
+          <input
+            class="form-control"
+            name="name"
+            placeholder="Enter your name"
+            id="name"
+          />
+          <label for="time" class="mt-2">Contact no</label>
+          <input
+            class="form-control"
+            name="phone"
+            placeholder="Enter your contact no"
+            id="phone"
+          />
+          <label for="time" class="mt-2">Course you are interested in</label>
+          <select name="course" id="course" class="form-control">
+            <option value="C and C++ foundation">C and C++ foundation</option>
+            <option value="C++ intermediate + STL">C++ intermediate + STL</option>
+            <option value="Intro to python">Intro to python</option>
+            <option value="Intro to JAVA">Intro to JAVA</option>
+            <option value="Frontend development">Frontend development</option>
+            <option value="Augmented Reality">Augmented Reality</option>
+           </select>
+             <label for="source">From where you got to know about us</label>
+             <select name="src" id="src" class="form-control">
+               <option value="internet">internet</option>
+               <option value="friend">friend</option>
+               <option value="newspaper">newspaper</option>
+               <option value="Exploration">Exploration</option>
+              </select>
+              <div class="text-center">
+          <button class="btn btn-primary" type="submit">Submit</button>
+          </div>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
 <div id="carousel__container">
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -35,8 +90,8 @@
   </div>
 </div>
 
-<div class="text-center mt-3">
-    <button class="btn btn-danger btn-size btn-lg">Register today for more updates</button>
+<div class="container text-center">
+  <button type="button" class="btn btn-primary btn-lg doubt-button btn-danger" data-toggle="modal" data-target="#myModal" >Register now for more updates</button>
 </div>
 
 <div class="container mt-5">
@@ -44,10 +99,10 @@
 <div class="card col-sm m-auto" style="width: 18rem;">
     <img class="card-img-top" src="images/img1.png" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <h5 class="card-title">C and C++ foundation</h5>
+      <p class="card-text">In this course you will be getting introduction with basic and foundational programming of C and C++</p>
       <div class="text-center">
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal" >Register Now</a>
       </div>
     </div>
   </div>
@@ -55,10 +110,10 @@
   <div class="card col-sm" style="width: 18rem;">
     <img class="card-img-top" src="images/img1.png" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <h5 class="card-title">C++ intermediate + STL</h5>
+      <p class="card-text">In this course we will init DSA and learn about multiple function defined in c++ STL library</p>
       <div class="text-center">
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Register Now</a>
       </div>
     </div>
   </div>
@@ -66,200 +121,124 @@
   <div class="card col-sm" style="width: 18rem;">
     <img class="card-img-top" src="images/img1.png" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <h5 class="card-title">Intro to python</h5>
+      <p class="card-text">In this course we will introduce you with the most beautiful langages in CSE domain which is python</p>
       <div class="text-center">
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Register Now</a>
       </div>
     </div>
   </div>
+  </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+
+  <div class="card col-sm" style="width: 18rem;">
+    <img class="card-img-top" src="images/img1.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Intro to JAVA</h5>
+      <p class="card-text">In this course we will learn the basic of java language it's syntax ,it' use foundatio and much more </p>
+      <div class="text-center">
+      <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Register Now</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card col-sm" style="width: 18rem;">
+    <img class="card-img-top" src="images/img1.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Frontend development</h5>
+      <p class="card-text">In this course we will start building website using HTML, CSS , Javascript + their frameworks like jquery ,boostrap, material Ui etc</p>
+      <div class="text-center">
+      <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Register Now</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card col-sm" style="width: 18rem;">
+    <img class="card-img-top" src="images/img1.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Augmented Reality (using unity)</h5>
+      <p class="card-text">In this course we will be bringing virtual object into reality we will build augmented reality apps using unity tool.</p>
+      <div class="text-center">
+      <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Register Now</a>
+      </div>
+    </div>
+  </div>
+
 </div>
 </div>
 
-<!-- Footer -->
 <footer class="bg-dark text-center text-white">
-    <!-- Grid container -->
     <div class="container p-4">
-      <!-- Section: Social media -->
       <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/nitanshu.lokhande.9/" role="button" target="_blank"
           ><i class="fab fa-facebook-f"></i
         ></a>
   
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/NitanshuL" role="button" target="_blank"
           ><i class="fab fa-twitter"></i
         ></a>
   
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-google"></i
-        ></a>
-  
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/nit_lok/" role="button" target="_blank"
           ><i class="fab fa-instagram"></i
         ></a>
   
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/nitanshu-lokhande-5b60691a0/" role="button" target="_blank"
           ><i class="fab fa-linkedin-in"></i
         ></a>
   
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/nlok5923" role="button" target="_blank"
           ><i class="fab fa-github"></i
         ></a>
       </section>
-      <!-- Section: Social media -->
-  
-      <!-- Section: Form -->
       <section class="">
-        <form action="">
-          <!--Grid row-->
           <div class="row d-flex justify-content-center">
-            <!--Grid column-->
-            <div class="col-auto">
-              <p class="pt-2">
-                <strong>Sign up for our newsletter</strong>
-              </p>
-            </div>
-            <!--Grid column-->
-  
-            <!--Grid column-->
             <div class="col-md-5 col-12">
-              <!-- Email input -->
               <div class="form-outline form-white mb-4">
-                <input type="email" id="form5Example2" class="form-control" />
-                <label class="form-label" for="form5Example2">Email address</label>
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+                <input type="email" id="subs_email" placeholder="enter email" class="form-control" />
+                <button type="submit" class="btn btn-outline-light mb-4" onclick="subscribe()" >
+                  Subscribe
+                </button>
               </div>
             </div>
-            <!--Grid column-->
-  
-            <!--Grid column-->
-            <div class="col-auto">
-              <!-- Submit button -->
-              <button type="submit" class="btn btn-outline-light mb-4">
-                Subscribe
-              </button>
-            </div>
-            <!--Grid column-->
           </div>
-          <!--Grid row-->
-        </form>
       </section>
-      <!-- Section: Form -->
-  
-      <!-- Section: Text -->
       <section class="mb-4">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-          eum harum corrupti dicta, aliquam sequi voluptate quas.
+          This website is purely made by the founder of course mania no other than founder do not hold any official rights to owe this website
         </p>
       </section>
-      <!-- Section: Text -->
-  
-      <!-- Section: Links -->
-      <section class="">
-        <!--Grid row-->
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-5 col-12">
+          <div class="form-outline form-white mb-4">
+            <p> Contact us: </p>
+            <ul>
+              <p>Nitanshu Lokhande (+91)8871719893</p>
+              <p>Mayank Agarwal (+91)7067809495</p>
             </ul>
           </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
         </div>
-        <!--Grid row-->
-      </section>
-      <!-- Section: Links -->
+      </div>
     </div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2020 Copyright:
       <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
     </div>
-    <!-- Copyright -->
   </footer>
-  <!-- Footer -->
+
+  <script>
+    async function subscribe(){
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST','/subscribe', true);
+      await xhr.setRequestHeader('Content-Type', 'application/json');
+      var resp = await xhr.send(
+        JSON.stringify({
+          mail: document.getElementById('subs_email').value,
+        }))
+    }
+  </script>
