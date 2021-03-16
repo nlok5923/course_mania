@@ -1,4 +1,12 @@
 
+
+
+.nav-sticky {
+    overflow: hidden;
+    position: sticky;
+    width: 100%;
+}
+
 .carousel-item {
     height: 70vh;
   }
@@ -9,3 +17,18 @@
       left: 0;
       min-height: 300px;
   }
+body.modal-open-noscroll {
+    margin-right: 0!important;
+    overflow: hidden;
+}
+.modal-open-noscroll .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
+    margin-right: 0!important;
+}
+
+.modal{
+    overflow-y: auto;
+    }
+    .modal-open{
+    overflow:auto;
+    overflow-x:hidden;
+    }
