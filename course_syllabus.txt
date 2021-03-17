@@ -1,0 +1,179 @@
+                INTRODUCTION TO PROGRAMMING WITH C.
+1 INTRODUCTION.
+  a what is c.
+  b its necessity and application.
+  c c syntax.
+  d basic understanding of compiler.
+  e what is pop.
+2 DATA Types.
+  a varibles and constant
+  b scope
+  c memory utilization.
+  d basic arthematic 
+  e problem to practice.
+3 LOOPS AND CONDITIONAL STATEMENT 
+  a if statement.
+  b if else statement.
+  c for loop.
+  d while loop.
+  e do while loop.
+  f pratical problem.
+4 NESTED LOOPS AND NESTED CONDITIONAL STATEMENT
+5 SWITCH CASE 
+6 PATTERN PRINTING 
+  a paramid.
+  b row and column.
+  c numeric structure.
+  d basic problem.
+  e intermidate problem.
+7 INTRO TO ARRAY AN DATA STRUCTURE
+  a syntax and declaration.
+  b application.
+  c pratice problem.
+8 INTRO TO FUNCTIONAL PROGRAMMING
+  a function
+  b need and application of function.
+  c parameter,return data_type,
+  d question to pratice 
+9 POINTER
+ a pointer to variable.
+ b pointer to pointer.
+ c pointer to function.
+ d pointer application.
+10 structure
+  a how to create structure.
+  b what is structure programming
+  c real world application 
+  d intermediate and advance question
+11  FINAL EXAM.
+        
+                         FOUNDATION OF C AND C++
+
+1 INTRODUCTION
+  a difference in c and c++.
+  b console I/O.
+  c syntax of c++
+  d relation in c and cpp
+  e what is oop.
+  f difference in pop and oop.
+2 C++ DATA_TYPES
+  a basic or primary data type
+  b derived data type
+  c user defined data type
+3 C++ LOOPS AND CONDITIONAL STATEMENT
+  a if statement.
+  b if else statement.
+  c for loop.
+  d while loop.
+  e do while loop.
+  f nested loops.
+  g nested if else.
+  h switch case.
+  i pratical problem.
+3 FUNCTION IN C AND C++
+  a syntax and implementation.
+  b return data_type and parameter
+  c functional problem basic.
+  d functional problem intermediate.
+4 POINTER AND REFERENCES
+  a pass by value.
+  b pass by reference.
+  c dangling pointer
+  d wild pointer.
+  e null pointer.
+  f void pointer.
+  g opaque pointer.
+  h can reference point to invalid location.
+  i pointer vs reference.
+5 ARRAY AND MATRICX
+  a intermediate problem on array.
+  b concept of sorting
+  c what is matrix.
+  d implementation and application of matrix
+  e basic problem on
+6 STRING 
+7 STRUCTURE VS CLASS
+  a basics of object oriented programming(oop)
+  b how class is better than structure
+  c structure and class implementation
+  d structure and class application
+  e problem to practice.
+8 SORTING
+9 INTERMEDIATE PROBLEMS
+10 FINAL EXAM.
+                  C++ INTRERMEDIATE WITH STL
+
+1 BASIC AND INTERMEDIATE PROBLEM
+2 Arrays and Strings
+   a Arrays in C/C++
+   b Array of Strings
+   c Multidimensional arrays in C/C++
+   d Raw string literal
+   e  Counts of distinct consecutive sub-string
+     of length two
+   f  Converting string to number and vice-versa
+   g   Find size of array in C/C++ without using sizeof
+   h    How to quickly reverse a string in C++?
+3 PROBLIMG SOLVING INTERMEDIATE
+     INTRODUCTION TO STL
+1  CPP-Math
+   . sinh() function in C++ STL
+   . cosh() function in C++ STL
+   . tanh() function in C++ STL
+   . pow() function in C++ STL
+   . sqrt() function in C++ STL
+   . round() function in C++ STL
+2  CPP-Numeric
+   . accumulate()
+   . partial_sum()
+   . gcd()
+   . lcm()
+3 Cpp-Iomanip
+  . set_precision()
+  . fixed()
+4 CONTANIER
+  a vector template
+  b set template
+  c list stl
+  d pair 
+  e map
+  f unordered_set
+  g unordered_map
+  h multimap stl
+  i forward_list & many more...
+5 FINAL EXAM.
+   
+          Data Structure and Algorithims
+1  intro to Algorithims
+   . pseudocode
+   . Mathematics
+   . Basic Recursion
+   . sorting
+2 intro to data structure
+   a Arrays: Searching, Sorting, Deleting, Shift, Rotation,      Prefix Sum...
+   Searching: Linear Search, Binary Search, Two pointer    approach...
+3  Sorting:
+    . QuickSort and its variation
+    . Mergesort
+    . Counting sort
+    .Insertion Sort
+    .Heap Sort
+    .Other searching algorithms.
+4  Linked Lists:
+  . Singly Linked List
+  . Doubly Linked Lists
+  . Circular Linked List.
+5  Stacks:
+   .Stack Operations
+   .Implementation
+   .Different Questions
+6  Queues:
+     .Queue Operations
+     .Implementation
+     .Different Questions
+     .Deque Operations
+     .Implementation
+     .Different Questions.
+7 Tree:
+ .Binary Tree
+ .Traversals
