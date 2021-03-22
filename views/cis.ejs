@@ -1,0 +1,240 @@
+<%- include('chore.ejs') -%>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="text-center">Fill this form we will reach you out</h2>
+          </div>
+          <div class="modal-body">
+            <form method="POST" action="/data">
+              <label for="email" class="mt-2">Email</label>
+              <input class="form-control" name="mail" placeholder="Enter your mail" id="mail" />
+              <label for="name" class="mt-2">Name</label>
+              <input class="form-control" name="name" placeholder="Enter your name" id="name" />
+              <label for="time" class="mt-2">Contact no</label>
+              <input class="form-control" name="phone" placeholder="Enter your contact no" id="phone" />
+              <label for="time" class="mt-2">Course you are interested in</label>
+              <select name="course" id="course" class="form-control">
+                <option value="C and C++ foundation">C and C++ foundation</option>
+                <option value="C++ intermediate + STL">C++ intermediate + STL</option>
+                <option value="Intro to python">Intro to python</option>
+                <option value="Intro to JAVA">Intro to JAVA</option>
+                <option value="Frontend development">Frontend development</option>
+                <option value="Augmented Reality">Augmented Reality</option>
+              </select>
+              <label for="source">From where you got to know about us</label>
+              <select name="src" id="src" class="form-control">
+                <option value="internet">internet</option>
+                <option value="friend">friend</option>
+                <option value="newspaper">newspaper</option>
+                <option value="Exploration">Exploration</option>
+              </select>
+              <div class="text-center">
+                <button class="btn btn-primary" id="updates" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/card.css" />
+
+      <div class="container">
+        <div class="header">
+          <h2 class="text-center"> Course Syllabus</h2>
+        </div>
+        <div class="body">
+          <ul>
+            <li>
+             basic and intermediate problem:
+             array and string
+            
+              , Arrays in C/C++ 
+              , Array of Strings 
+              , Multidimensional arrays in C/C++ 
+              , Raw string literal 
+              , Counts of distinct consecutive sub-string
+                of length two 
+              , Converting string to number and vice-versa 
+              , Find size of array in C/C++ without using sizeof 
+              , How to quickly reverse a string in C++? 
+            
+            , problem solving intermediate
+            </li>
+            <li> 
+             intro with STL:
+             CPP-Math
+            
+              , sinh() function in C++ STL
+              , cosh() function in C++ STL
+              , tanh() function in C++ STL
+              , pow() function in C++ STL
+              , sqrt() function in C++ STL
+              , round() function in C++ STL
+            </li>
+            <li>
+             CPP-Numeric: 
+            
+               accumulate()
+              , partial_sum()
+              , gcd()
+              , lcm()
+            </li>
+            <li>
+             Cpp-Iomanip: 
+            
+               set_precision()
+              , fixed()
+            </li>
+            <li>
+             container:
+            
+               vector template
+              , set template
+              , list stl
+              , pair 
+              , map
+              , unordered_set
+              , unordered_map
+              , multimap stl
+              , forward_list & many more...
+            </li>
+            <li>
+             Exam. 
+            </li>
+
+
+          </ul>
+          <div class="container">
+            <h2 class="text-center">Mentors</h2>
+
+            
+          </div>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-lg-3 col-sm-6">
+          
+                      <div class="card hovercard">
+                          <div class="cardheader">
+          
+                          </div>
+                          <div class="avatar">
+                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
+                          </div>
+                          <div class="info">
+                              <div class="title">
+                                  <a target="_blank" href="https://scripteden.com/">Script Eden</a>
+                              </div>
+                              <div class="desc">Passionate designer</div>
+                              <div class="desc">Curious developer</div>
+                              <div class="desc">Tech geek</div>
+                          </div>
+                          <div class="bottom">
+                              <a class="btn btn-primary btn-twitter " href="https://twitter.com/webmaniac">
+                                  <i class="fa fa-twitter fa-xl"></i>
+                              </a>
+                              <a class="btn btn-danger" rel="publisher"
+                                 href="https://plus.google.com/+ahmshahnuralam">
+                                  <i class="fa fa-google-plus"></i>
+                              </a>
+                              <a class="btn btn-primary" rel="publisher"
+                                 href="https://plus.google.com/shahnuralam">
+                                  <i class="fa fa-facebook"></i>
+                              </a>
+                          </div>
+                      </div>
+          
+                  </div>
+
+                  <div class="col-lg-3 col-sm-6">
+          
+                    <div class="card hovercard">
+                        <div class="cardheader">
+        
+                        </div>
+                        <div class="avatar">
+                            <img alt="" src="http://lorempixel.com/100/100/people/9/">
+                        </div>
+                        <div class="info">
+                            <div class="title">
+                                <a target="_blank" href="https://scripteden.com/">Script Eden</a>
+                            </div>
+                            <div class="desc">Passionate designer</div>
+                            <div class="desc">Curious developer</div>
+                            <div class="desc">Tech geek</div>
+                        </div>
+                        <div class="bottom">
+                            <a class="btn btn-primary btn-twitter " href="https://twitter.com/webmaniac">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a class="btn btn-danger " rel="publisher"
+                               href="https://plus.google.com/+ahmshahnuralam">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                            <a class="btn btn-primary " rel="publisher"
+                               href="https://plus.google.com/shahnuralam">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+        
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+          
+                  <div class="card hovercard">
+                      <div class="cardheader">
+      
+                      </div>
+                      <div class="avatar">
+                          <img alt="" src="http://lorempixel.com/100/100/people/9/">
+                      </div>
+                      <div class="info">
+                          <div class="title">
+                              <a target="_blank" href="https://scripteden.com/">Script Eden</a>
+                          </div>
+                          <div class="desc">Passionate designer</div>
+                          <div class="desc">Curious developer</div>
+                          <div class="desc">Tech geek</div>
+                      </div>
+                      <div class="bottom">
+                          <a class="btn btn-primary btn-twitter " href="https://twitter.com/webmaniac">
+                              <i class="fa fa-twitter"></i>
+                          </a>
+                          <a class="btn btn-danger " rel="publisher"
+                             href="https://plus.google.com/+ahmshahnuralam">
+                              <i class="fa fa-google-plus"></i>
+                          </a>
+                          <a class="btn btn-primary " rel="publisher"
+                             href="https://plus.google.com/shahnuralam">
+                              <i class="fa fa-facebook"></i>
+                          </a>
+                      </div>
+                  </div>
+      
+              </div>
+          
+            </div>
+          </div>
+          <div class="container">
+            <h2 class="text-center">Course Duration</h2>
+            <p>
+              10 weeks
+            </p>
+          </div>
+          <div class="container text-center">
+            <button type="button" class="btn btn-primary" id="updates" data-toggle="modal" data-target="#myModal">
+              Enroll at Rs 800
+            </button>
+          </div>
+        </div>
+      </div>
+

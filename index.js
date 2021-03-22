@@ -56,6 +56,39 @@ app.post("/subscribe", async (req,res)=>{
   .then((doc)=>{console.log("saved",doc)})
 })
 
+//get routes 
+
+app.get('/ip',(req,res)=>{
+  res.render('ip',{})
+})
+
+app.get('/ij',(req,res)=>{
+  res.render('ij',{})
+})
+app.get('/cis',(req,res)=>{
+  res.render('cis',{})
+})
+
+app.get('/cfc',(req,res)=>{
+  res.render('cfc',{})
+})
+
+app.get('/fed',(req,res)=>{
+  res.render('fed',{})
+})
+
+app.get('/ar',(req,res)=>{
+  res.render('ar',{})
+})
+
+app.get('/pic',(req,res)=>{
+  res.render('pic',{})
+})
+
+app.get('/dsa',(req,res)=>{
+  res.render('dsa',{})
+})
+
 app.listen(port, () => {
     console.log('Server Started at ' + port);
 });
